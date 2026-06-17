@@ -8,32 +8,25 @@ import { StyleProvider } from "@/components/ui/StyleProvider";
 export default function Layout() {
   const navItems = [
   {
-    "name": "Home",
-    "href": "#hero"
+    "name": "Home",    "href": "#hero"
   },
   {
-    "name": "About",
-    "href": "#about"
+    "name": "About",    "href": "#about"
   },
   {
-    "name": "Services",
-    "href": "#services"
+    "name": "Services",    "href": "#services"
   },
   {
-    "name": "Contact",
-    "href": "#contact"
+    "name": "Contact",    "href": "#contact"
   },
   {
-    "name": "Metrics",
-    "href": "#metrics"
+    "name": "Metrics",    "href": "#metrics"
   },
   {
-    "name": "Testimonials",
-    "href": "#testimonials"
+    "name": "Testimonials",    "href": "#testimonials"
   },
   {
-    "name": "Social Proof",
-    "href": "#social-proof"
+    "name": "Social Proof",    "href": "#social-proof"
   }
 ];
 
@@ -43,11 +36,9 @@ export default function Layout() {
       <SectionErrorBoundary name="navbar">
         <NavbarFloatingLogo
       logo="AutoClient"
-      logoImageSrc="https://images.unsplash.com/photo-1614680376573-df3480f0c6ff?q=80&w=100&auto=format&fit=crop"
+      logoImageSrc="https://storage.googleapis.com/webild/default/no-image.jpg?id=fazgca"
       ctaButton={{
-        text: "Book a Free Review",
-        href: "#contact",
-      }}
+        text: "Book a Free Review",        href: "#contact"}}
      navItems={navItems} />
       </SectionErrorBoundary>
       <main className="flex-grow">
@@ -57,50 +48,31 @@ export default function Layout() {
         <FooterBasic
       columns={[
         {
-          title: "AutoClient",
-          items: [
+          title: "AutoClient",          items: [
             {
-              label: "About Us",
-              href: "#about",
-            },
+              label: "About Us",              href: "#about"},
             {
-              label: "Services",
-              href: "#services",
-            },
+              label: "Services",              href: "#services"},
             {
-              label: "Success",
-              href: "#testimonials",
-            },
+              label: "Success",              href: "#testimonials"},
           ],
         },
         {
-          title: "Company",
-          items: [
+          title: "Company",          items: [
             {
-              label: "Privacy Policy",
-              href: "#",
-            },
+              label: "Privacy Policy",              href: "#"},
             {
-              label: "Terms of Service",
-              href: "#",
-            },
+              label: "Terms of Service",              href: "#"},
             {
-              label: "Careers",
-              href: "#",
-            },
+              label: "Careers",              href: "#"},
           ],
         },
         {
-          title: "Contact",
-          items: [
+          title: "Contact",          items: [
             {
-              label: "Book Review",
-              href: "#contact",
-            },
+              label: "Book Review",              href: "#contact"},
             {
-              label: "Email: nazar@autoclient.solutions",
-              href: "mailto:nazar@autoclient.solutions",
-            },
+              label: "Email: nazar@autoclient.solutions",              href: "mailto:nazar@autoclient.solutions"},
           ],
         },
       ]}
