@@ -43,6 +43,7 @@ export default function Layout() {
       <SectionErrorBoundary name="navbar">
         <NavbarFloatingLogo
       logo="AutoClient"
+      logoImageSrc="https://images.unsplash.com/photo-1614680376573-df3480f0c6ff?q=80&w=100&auto=format&fit=crop"
       ctaButton={{
         text: "Book a Free Review",
         href: "#contact",
