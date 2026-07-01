@@ -72,7 +72,7 @@ export default function Layout() {
             {
               label: "Book Review",              href: "#contact"},
             {
-              label: "Email: nazar@autoclient.solutions",              href: "mailto:nazar@autoclient.solutions"},
+              label: "Email: nazar.automation.ai@gmail.com",              href: "mailto:nazar.automation.ai@gmail.com"},
           ],
         },
       ]}
