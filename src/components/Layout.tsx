@@ -35,10 +35,10 @@ export default function Layout() {
       <SiteBackgroundSlot />
       <SectionErrorBoundary name="navbar">
         <NavbarFloatingLogo
-      logo="AutoClient"
+      logo="NAZAR AUTOMATION"
       logoImageSrc="https://storage.googleapis.com/webild/default/no-image.jpg?id=fazgca"
       ctaButton={{
-        text: "Book a Free Review",        href: "#contact"}}
+        text: "Book a Consultation",        href: "#contact"}}
      navItems={navItems} />
       </SectionErrorBoundary>
       <main className="flex-grow">
@@ -48,7 +48,7 @@ export default function Layout() {
         <FooterBasic
       columns={[
         {
-          title: "AutoClient",          items: [
+          title: "NAZAR AUTOMATION",          items: [
             {
               label: "About Us",              href: "#about"},
             {
@@ -76,7 +76,7 @@ export default function Layout() {
           ],
         },
       ]}
-      leftText="© 2024 AutoClient Solutions. All rights reserved."
+      leftText="© 2024 NAZAR AUTOMATION. All rights reserved."
       rightText="Designed by Nazar Ulyanov"
     />
       </SectionErrorBoundary>
