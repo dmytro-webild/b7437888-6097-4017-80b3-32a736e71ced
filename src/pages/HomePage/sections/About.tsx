@@ -10,12 +10,12 @@ export default function AboutSection(): React.JSX.Element {
     <div id="about" data-section="about">
         <SectionErrorBoundary name="about">
               <AboutTestimonial
-          tag="Our Philosophy"
-          quote="Efficiency is the bridge between aspiration and reality. In the modern service economy, being present is not enough—you must be responsive."
-          author="Nazar Ulyanov"
-          role="Founder, AutoClient Solutions"
-          imageSrc="http://img.b2bpic.net/free-photo/portrait-bearded-black-man-wool-suit_613910-15972.jpg"
-        />
+        tag="Our Philosophy"
+        quote="Efficiency is the bridge between aspiration and reality. In the modern service economy, being present is not enough—you must be responsive."
+        author="Nazar Ulyanov"
+        role="Founder, AutoClient Solutions"
+        imageSrc="https://picsum.photos/seed/429726385/1200/800"
+      />
         </SectionErrorBoundary>
       </div>
   );

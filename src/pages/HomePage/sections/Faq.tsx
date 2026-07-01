@@ -10,10 +10,10 @@ export default function FaqSection(): React.JSX.Element {
     <div id="faq" data-section="faq">
         <SectionErrorBoundary name="faq">
               <FaqSplitMedia
-          tag="Queries"
-          title="Frequently Asked Questions"
-          description="Everything you need to know about integrating AI automation into your luxury business."
-          items={[
+        tag="Queries"
+        title="Frequently Asked Questions"
+        description="Everything you need to know about integrating AI automation into your luxury business."
+        items={[
             {
               question: "Is AI automation 'robotic' or impersonal?",
               answer: "Our solutions are designed to sound human and maintain your unique brand voice, ensuring every interaction feels premium and personal.",
@@ -31,8 +31,8 @@ export default function FaqSection(): React.JSX.Element {
               answer: "Yes, our systems are scalable, designed for small-to-medium service businesses aiming for high-end growth and operational excellence.",
             },
           ]}
-          imageSrc="http://img.b2bpic.net/free-photo/luxury-office-chair-modern-glass-building-generated-by-ai_188544-13768.jpg"
-        />
+        imageSrc="https://picsum.photos/seed/123282607/1200/800"
+      />
         </SectionErrorBoundary>
       </div>
   );
