@@ -10,47 +10,11 @@ export default function TestimonialsSection(): React.JSX.Element {
     <div id="testimonials" data-section="testimonials">
         <SectionErrorBoundary name="testimonials">
               <TestimonialMarqueeOverlayCards
-          tag="Client Success"
-          title="Luxury Partners"
-          description="Entrepreneurs and consultants who elevated their growth through automation."
-          testimonials={[
-            {
-              name: "Sarah Johnson",
-              role: "CEO",
-              company: "Elite Dental",
-              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-man-writing-document-bicycle-shop_23-2147892642.jpg",
-            },
-            {
-              name: "Michael Chen",
-              role: "Founder",
-              company: "Prime Realty",
-              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/modern-businesswoman_23-2148012909.jpg",
-            },
-            {
-              name: "Emily Rodriguez",
-              role: "Owner",
-              company: "Serene Spa",
-              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/call-center-agents-collaborating-track-lost-customers-shipments_482257-117820.jpg",
-            },
-            {
-              name: "David Kim",
-              role: "Consultant",
-              company: "Growth Partners",
-              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/view-student-cute-woman-smiling-camera_197531-33567.jpg",
-            },
-            {
-              name: "Lisa Wang",
-              role: "Owner",
-              company: "Zen Clinic",
-              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/portrait-redhead-bearded-male-small-cafe-with-lot-flowers-coffee-machine_613910-8899.jpg",
-            },
-          ]}
-        />
+        tag="Client Success"
+        title="Luxury Partners"
+        description="Entrepreneurs and consultants who elevated their growth through automation."
+        testimonials={[{"name":"Sarah Johnson","imageSrc":"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=800","role":"CEO","rating":5,"company":"Elite Dental"},{"name":"Michael Chen","imageSrc":"https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=800","rating":5,"role":"Founder","company":"Prime Realty"},{"imageSrc":"https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80&w=800","name":"Emily Rodriguez","company":"Serene Spa","role":"Owner","rating":5},{"company":"Growth Partners","rating":5,"role":"Consultant","imageSrc":"https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=800","name":"David Kim"},{"role":"Owner","rating":5,"company":"Zen Clinic","name":"Lisa Wang","imageSrc":"https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=800"}]}
+      />
         </SectionErrorBoundary>
       </div>
   );

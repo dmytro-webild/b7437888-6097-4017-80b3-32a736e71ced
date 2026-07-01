@@ -10,54 +10,11 @@ export default function ServicesSection(): React.JSX.Element {
     <div id="services" data-section="services">
         <SectionErrorBoundary name="services">
               <FeaturesRevealCardsBento
-          tag="Our Automation Suite"
-          title="Precision Business Solutions"
-          description="Premium systems designed to scale your operational capacity while maintaining a white-glove client experience."
-          items={[
-            {
-              title: "24/7 Intelligent Response",
-              description: "Ensure no enquiry goes unacknowledged with AI systems that manage your communication around the clock.",
-              href: "#contact",
-              imageSrc: "http://img.b2bpic.net/free-photo/messy-office-workplace-workplace-workspace-concept_185193-109628.jpg",
-            },
-            {
-              title: "Lead Qualification",
-              description: "Automated protocols to filter and prioritize high-value enquiries, so your team focuses on closing.",
-              href: "#contact",
-              imageSrc: "http://img.b2bpic.net/free-photo/futurism-perspective-digital-nomads-lifestyle_23-2151252445.jpg",
-            },
-            {
-              title: "CRM Integration",
-              description: "Seamlessly bridge your client communication across Instagram, WhatsApp, and Facebook into one source of truth.",
-              href: "#contact",
-              imageSrc: "http://img.b2bpic.net/free-photo/desktop-pc-wooden-desk-showcases-infographics-client-reach-data_482257-126876.jpg",
-            },
-            {
-              title: "Strategic Audits",
-              description: "Deep analysis of your current manual processes to uncover hidden friction points and missed revenue.",
-              href: "#contact",
-              imageSrc: "http://img.b2bpic.net/free-photo/employee-examining-company-performance_482257-121856.jpg",
-            },
-            {
-              title: "Operational Excellence",
-              description: "Refining your client onboarding and internal processes to ensure professional, scalable consistency.",
-              href: "#contact",
-              imageSrc: "http://img.b2bpic.net/free-photo/artificial-intelligence-technology-simulating-human-brain-used-by-engineer_482257-122157.jpg",
-            },
-            {
-              title: "Scalable Infrastructure",
-              description: "Build foundations that grow with your business, supporting high volumes without compromising premium quality.",
-              href: "#contact",
-              imageSrc: "http://img.b2bpic.net/free-photo/top-view-ring-binder_23-2149568988.jpg",
-            },
-            {
-              title: "Conversion Engineering",
-              description: "Optimized communication workflows designed to convert more enquiries into booked appointments.",
-              href: "#contact",
-              imageSrc: "http://img.b2bpic.net/free-photo/global-communications-connection-discussion-interaction-concept_53876-21186.jpg",
-            },
-          ]}
-        />
+        tag="Our Automation Suite"
+        title="Precision Business Solutions"
+        description="Premium systems designed to scale your operational capacity while maintaining a white-glove client experience."
+        items={[{"description":"Ensure no enquiry goes unacknowledged with AI systems that manage your communication around the clock.","title":"24/7 Intelligent Response","imageSrc":"https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&q=80&w=1200","href":"#contact"},{"description":"Automated protocols to filter and prioritize high-value enquiries, so your team focuses on closing.","imageSrc":"https://images.unsplash.com/photo-1556761175-5973dc0f32d7?auto=format&fit=crop&q=80&w=1200","title":"Lead Qualification","href":"#contact"},{"imageSrc":"https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&q=80&w=1200","title":"CRM Integration","description":"Seamlessly bridge your client communication across Instagram, WhatsApp, and Facebook into one source of truth.","href":"#contact"},{"title":"Strategic Audits","imageSrc":"https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=1200","description":"Deep analysis of your current manual processes to uncover hidden friction points and missed revenue.","href":"#contact"},{"title":"Operational Excellence","imageSrc":"https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=1200","description":"Refining your client onboarding and internal processes to ensure professional, scalable consistency.","href":"#contact"},{"imageSrc":"https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&q=80&w=1200","title":"Scalable Infrastructure","description":"Build foundations that grow with your business, supporting high volumes without compromising premium quality.","href":"#contact"},{"href":"#contact","description":"Optimized communication workflows designed to convert more enquiries into booked appointments.","title":"Conversion Engineering","imageSrc":"https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80&w=1200"}]}
+      />
         </SectionErrorBoundary>
       </div>
   );
